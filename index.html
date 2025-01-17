@@ -10,16 +10,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<style>
-			.avatar-left {
-				margin-left: -25px;
-				margin-top: -10px;
-			}
-
-			.small-title {
-				font-size: 0.95em !important;
-			}
-		</style>
 	</head>
 	<body class="is-preload">
 
@@ -30,18 +20,18 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48 avatar-left"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title" class="small-title">Anna "Charlie" Rosputnia</h1>
-							<p>Game Developer</p>
+							<span class="image"><img src="images/avatar.jpg" alt="" style="width: 50%; height: auto; margin-left: 70px; margin-top: 70px;  border: 5px solid white;"/></span>
+							<h1 id="title" style="font-size: 0.95em; margin-right: 20px;">Anna "Charlie" Rosputnia</h1>
+							<p style="margin-right: 100px;">Game Developer</p>
 						</div>
 
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<!--<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>-->
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Overview</span></a></li>
+								<li><a href="#programming" id="programming-link"><span class="icon solid fa-file-alt">Programming</span></a></li>
+								<li><a href="#art" id="art-link"><span class="icon solid fa-palette">Art</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Introspective</span></a></li>
 							</ul>
 						</nav>
 
@@ -51,11 +41,9 @@
 
 					<!-- Social Icons -->
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="#" class="icon brands fa-artstation"><span class="label">ArtStation</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 						</ul>
 
 				</div>
@@ -66,90 +54,159 @@
 			<div id="main">
 
 				<!-- Intro -->
-					<section id="top" class="one dark cover">
+					<section id="top">
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hey, if you're checking this page after I put it on Moodle, shoo!<br /> It's not ready!</h2>
-								<p>I was in pain for over a week and wasn't able to get this done aside from links<br />
-								I'm fine, I'll get to it soon, my evalution is on 23rd lol.</p>
+								<h2 class="alt">Project Overview</h2>
+									<span class="image"><img src="images/header.jpg" alt="" style="margin-top: 40px;"/> </span>
+									<br/><a href="https://store.steampowered.com/app/3286080/Stellar_Stables/" class="icon brands fa-steam" style="font-size: 1.75em; text-decoration: none; border:none;"><span class="label">Steam Page</span></a>
 							</header>
+							<p style="margin-top: -50px;">Stellar Stables is a 2D casual point-and-click adventure about collecting alien horses. 
+								You navigate the world through interactive elements on the map, 
+								solve puzzles and play minigames to get all the horses on the alien planet you are stationed in.</p>
+								<p>This game was made by a team of six students, the development lasted 3.5 months and the game was released on Steam by the end. <br/>
+									I was involved primarily in Programming and Art, while also sharing the role of the Product Owner.
+								</p>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<a href="#programming" class="button scrolly">Oh my a button</a>
 							</footer>
 
 						</div>
 					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+					<section id="programming" class="two">
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2>Programming</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+							<div style="text-align: left;">
+								<h3>Skills Gained:</h3>
+								<ul>
+									<li>Making clear Inspector instructions for other people</li>
+									<li>Asset code reading & rewriting</li>
+									<li>Creating modular systems</li>
+									<li>Custom Unity Editors</li>
+									<li>Screen Spaces and UI structure</li>
+									<li>Scene Management and persistent objects</li>
+									<li>Basic Inventory structure</li>
+									<li>Steam integration and achievements</li>
+									<li>Making and uploading a Build on Steam</li>
+									<li>Using Unity Animator in script</li>
+									<li>Unity Buttons</li>
+									<li>Click Events</li>
+									<li>Interfaces</li>
+									<li>Flowcharts</li>
+								</ul>
+							</div>
+							
+							<p>code things yers.</p>
 
+							<div class="col-6 col-12-mobile">
+								<!--1-->
+								<article class="item">
+									<a href="#" class="image fit"><img src="images/flowchart.png" alt="" /></a>
+									<header>
+										<h3>Flowchart snippet</h3>
+									</header>
+								</article>
+							</div>
+
+						</div>
+					</section>
+				<!-- Portfolio -->
+					<section id="art" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Art</h2>
+							</header>
+
+							<div style="text-align: left;">
+								<h3>Skills Gained:</h3>
+								<ul>
+									<li>Making a clear color palette for object readibility</li>
+									<li>Using color palette</li>
+									<li>Balancing time-constraint and art priority</li>
+									<li>Drafting detailed backgrounds</li>
+									<li>Sprite animations</li>
+									<li>Designing unique objects</li>
+									<li>Unity Animator</li>
+								</ul>
+							</div>
+
+							<p>explain art here.</p>
+
+							<div class="col-6 col-12-mobile">
+								<!--1-->
+								<article class="item">
+									<a href="#" class="image fit"><img src="images/c1.png" alt="" /></a>
+									<header>
+										<h3>Concept</h3>
+									</header>
+								</article>
+								<article class="item">
+									<a href="#" class="image fit"><img src="images/a1-1.png" alt="" /></a>
+									<header>
+										<h3>Ocean Sketch</h3>
+									</header>
+								</article>
+								<article class="item">
+									<a href="#" class="image fit"><img src="images/a1-2.png" alt="" /></a>
+									<header>
+										<h3>Ocean Colored Sketch</h3>
+									</header>
+								</article>
+								<article class="item">
+									<a href="#" class="image fit"><img src="images/a1-3.png" alt="" /></a>
+									<header>
+										<h3>Ocean Completed Sketch</h3>
+									</header>
+								</article>
+								<article class="item">
+									<a href="#" class="image fit"><img src="images/a1-3b.png" alt="" /></a>
+									<header>
+										<h3>Final look in-game</h3>
+									</header>
+								</article>
+							</div>
+							<p></p>
 							<div class="row">
-								<div class="col-6 col-12-mobile">
-									<!--1-->
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/a1-1.png" alt="" /></a>
-										<header>
-											<h3>1</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/a1-2.png" alt="" /></a>
-										<header>
-											<h3>2</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/a1-3.png" alt="" /></a>
-										<header>
-											<h3>2</h3>
-										</header>
-									</article>
-								</div>
 								<!--3-->
-								<div class="col-6 col-12-mobile">
+								<!--<div class="col-6 col-12-mobile">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/a2-1.png" alt="" /></a>
 										<header>
-											<h3>3</h3>
+											<h3>Desert Sketch</h3>
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/a2-2.png" alt="" /></a>
 										<header>
-											<h3>4</h3>
+											<h3>Desert Colored Sketch</h3>
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/a2-3.png" alt="" /></a>
 										<header>
-											<h3>4</h3>
+											<h3>Desert Completed Sketch</h3>
 										</header>
 									</article>
-								</div>
+								</div>-->
 								<!--5-->
 								<div class="col-2 col-12-mobile">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic5.gif" alt="" /></a>
 										<header>
-											<h3>5</h3>
+											
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic6.png" alt="" /></a>
 										<header>
-											<h3>6</h3>
+											
 										</header>
 									</article>
 								</div>
@@ -158,13 +215,13 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic7.gif" alt="" /></a>
 										<header>
-											<h3>7</h3>
+											
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic8.png" alt="" /></a>
 										<header>
-											<h3>8</h3>
+											
 										</header>
 									</article>
 								</div>
@@ -172,13 +229,13 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic9.png" alt="" /></a>
 										<header>
-											<h3>9</h3>
+											
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic10.png" alt="" /></a>
 										<header>
-											<h3>10</h3>
+											
 										</header>
 									</article>
 								</div>
@@ -186,13 +243,13 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic11.png" alt="" /></a>
 										<header>
-											<h3>11</h3>
+											
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic12.png" alt="" /></a>
 										<header>
-											<h3>12</h3>
+											
 										</header>
 									</article>
 								</div>
@@ -200,13 +257,13 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic13.png" alt="" /></a>
 										<header>
-											<h3>13</h3>
+											
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic14.png" alt="" /></a>
 										<header>
-											<h3>14</h3>
+											
 										</header>
 									</article>
 								</div>
@@ -214,13 +271,13 @@
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic15.png" alt="" /></a>
 										<header>
-											<h3>15</h3>
+											
 										</header>
 									</article>
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic16.png" alt="" /></a>
 										<header>
-											<h3>16</h3>
+											
 										</header>
 									</article>
 								</div>
@@ -230,21 +287,16 @@
 					</section>
 
 				<!-- About Me -->
-					<section id="about" class="three">
+					<section id="about" class="four">
 						<div class="container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2>Introspective</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic9.png" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/game.png" alt="" /></a>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+							<p>much rambling about being PO and the project in general</p>
 
 						</div>
 					</section>
@@ -285,7 +337,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Resume. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
 			</div>
