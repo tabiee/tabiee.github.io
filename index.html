@@ -82,8 +82,12 @@
 								<h2>Programming</h2>
 							</header>
 
-							<div style="text-align: left;">
-								<h3>Skills Gained:</h3>
+							<p>I was in charge of the main mechanics for the game, which involved clicking UI elements, interaction and inventory systems.
+								 <br/>Additionally, I oversaw Steam intergration, helped with UI and made minor animations.</p>
+
+								 <div style="text-align: left;">
+								<h3>What I learned:</h3>
+								<br/>
 								<ul>
 									<li>Making clear Inspector instructions for other people</li>
 									<li>Asset code reading & rewriting</li>
@@ -102,16 +106,87 @@
 								</ul>
 							</div>
 							
-							<p>code things yers.</p>
+							
+							<div style="text-align: left;">
+								<h3>Biggest Take-aways:</h3>
+								<br/>
+								<b><h4>Divided Tasks</h4></b>
+								<p>Me and another programmer on our team divided our tasks so that we did not overlap and could work without relying on each other too much. 
+									It was effective to keep our workflow smooth. I found that to be a good approach.</p>
+							</div>
+							
+							<div style="text-align: left;">
+								<b><h4>Editing Assets</h4></b>
+								<p>I went through three different inventory assets before finally settling on one that fit our project.
+									The first was too complex for me to edit quickly and the second was much simpler but had terribly dirty code that was difficult to work with.
+									Trying out assets took out about 2 weeks of development, but was worthwhile as a learning experience to not waste time with bad assets.
+								</p>
+							</div>
+
+							<div style="text-align: left;">
+								<b><h4>Instructions Are Great</h4></b>
+								<p>Writing clear instructions in the Inspector for other people to understand was a great way to keep the project organized and easy to work with.
+									It meant that I did not need to spend as much time explaining how the system works to our implementer and left valuable reminders for myself.
+								</p>
+							</div>
+
+							<div style="text-align: left;">
+								<b><h4>Flowcharts</h4></b>
+								<p>While we did not end up using our flowchart much since mine and the other programmer's tasks were divided, it was a good way to visualize the game's structure.
+									We could see where our systems overlapped and what gaps we need to fill. It was a good way to plan out the overall mechanics of the game.
+								</p>
+							</div>
 
 							<div class="col-6 col-12-mobile">
 								<!--1-->
 								<article class="item">
-									<a href="#" class="image fit"><img src="images/flowchart.png" alt="" /></a>
 									<header>
 										<h3>Flowchart snippet</h3>
 									</header>
+									<a href="#" class="image fit"><img src="images/flowchart.png" alt="" /></a>
 								</article>
+								
+								<article class="item">
+									<header>
+										<h3>Code snippets</h3>
+									</header>
+									<br/>
+									
+									<button style="font-size: 20px; padding: 10px 250px 10px 250px;" onclick="toggleSnippet('codeSnippet1')">Interaction Handler</button>
+							
+									<div id="codeSnippet1" style="display: none;">
+										<script src="https://gist.github.com/tabiee/46d09e5e237b1d1ec8b31dd556b1d0e9.js"></script>
+									</div>
+								</article>
+
+								<article class="item">
+									
+									<button style="font-size: 20px; padding: 10px 250px 10px 250px;" onclick="toggleSnippet('codeSnippet2')">Interaction Container</button>
+									
+									<div id="codeSnippet2" style="display: none;">
+										<script src="https://gist.github.com/tabiee/ca95be119f7f8b99b6872ada980d3539.js"></script>
+									</div>
+								</article>
+
+								<article class="item">
+									
+									<button style="font-size: 20px; padding: 10px 250px 10px 250px;" onclick="toggleSnippet('codeSnippet3')">Game Manager</button>
+								
+									<div id="codeSnippet3" style="display: none;">
+										<script src="https://gist.github.com/tabiee/57cd0fb64ac24b3517b98963d6b0b106.js"></script>
+									</div>
+								</article>
+								
+								<script>
+									function toggleSnippet(id) {
+									  var x = document.getElementById(id);
+									  if (x.style.display === "none") {
+										x.style.display = "block";
+									  } else {
+										x.style.display = "none";
+									  }
+									}
+								  </script>
 							</div>
 
 						</div>
@@ -125,7 +200,7 @@
 							</header>
 
 							<div style="text-align: left;">
-								<h3>Skills Gained:</h3>
+								<h3>What I learned:</h3>
 								<ul>
 									<li>Making a clear color palette for object readibility</li>
 									<li>Using color palette</li>
@@ -142,33 +217,37 @@
 							<div class="col-6 col-12-mobile">
 								<!--1-->
 								<article class="item">
-									<a href="#" class="image fit"><img src="images/c1.png" alt="" /></a>
 									<header>
 										<h3>Concept</h3>
 									</header>
+									<a href="#" class="image fit"><img src="images/c1.png" alt="" /></a>
 								</article>
 								<article class="item">
-									<a href="#" class="image fit"><img src="images/a1-1.png" alt="" /></a>
 									<header>
 										<h3>Ocean Sketch</h3>
 									</header>
+									<a href="#" class="image fit"><img src="images/a1-1.png" alt="" /></a>
 								</article>
 								<article class="item">
-									<a href="#" class="image fit"><img src="images/a1-2.png" alt="" /></a>
 									<header>
 										<h3>Ocean Colored Sketch</h3>
 									</header>
+									<a href="#" class="image fit"><img src="images/a1-2.png" alt="" /></a>
 								</article>
 								<article class="item">
-									<a href="#" class="image fit"><img src="images/a1-3.png" alt="" /></a>
 									<header>
 										<h3>Ocean Completed Sketch</h3>
 									</header>
+									<a href="#" class="image fit"><img src="images/a1-3.png" alt="" /></a>
 								</article>
 								<article class="item">
-									<a href="#" class="image fit"><img src="images/a1-3b.png" alt="" /></a>
 									<header>
 										<h3>Final look in-game</h3>
+									</header>
+									<a href="#" class="image fit"><img src="images/a1-3b.png" alt="" /></a>
+									<br/>
+									<header>
+										<h3>Miscellaneous Sprites</h3>
 									</header>
 								</article>
 							</div>
@@ -196,6 +275,9 @@
 									</article>
 								</div>-->
 								<!--5-->
+
+
+
 								<div class="col-2 col-12-mobile">
 									<article class="item">
 										<a href="#" class="image fit"><img src="images/pic5.gif" alt="" /></a>
@@ -294,7 +376,7 @@
 								<h2>Introspective</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/game.png" alt="" /></a>
+							<a href="#" class="image featured"><img src="images/game.gif" alt="" /></a>
 
 							<p>much rambling about being PO and the project in general</p>
 
