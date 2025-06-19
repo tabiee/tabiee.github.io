@@ -29,6 +29,35 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+	.game-card {
+	  display: block;
+	  background: #222;
+	  border-radius: 10px;
+	  overflow: hidden;
+	  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+	  transition: transform 0.2s;
+	  text-decoration: none;
+	  color: inherit;
+	}
+	.game-card:hover {
+	  transform: scale(1.02);
+	}
+	.card-content {
+	  padding: 0.2em;
+	}
+	.game-stats span {
+	  margin-right: 10px;
+	  font-size: 0.9em;
+	  opacity: 0.8;
+	}
+	.card-content h3 {
+	  margin-top: 0.1em;
+	  color: #f1815e;
+	}
+	.card-content h4 {
+	  margin: 0.1em 0;
+	}
+	
 body {
 	line-height: 1;
 }
@@ -2078,12 +2107,12 @@ input, select, textarea {
 			}
 
 		#header .icons {
-			font-size: 0.8em;
+			font-size: 1.0em;
 			text-align: center;
 		}
 
 			#header .icons a {
-				color: #41484c;
+				color: #f3ccc0;
 				-moz-transition: color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out;
@@ -2091,7 +2120,7 @@ input, select, textarea {
 			}
 
 				#header .icons a:hover {
-					color: #fff;
+					color: #f1815e;
 				}
 
 	#logo {
