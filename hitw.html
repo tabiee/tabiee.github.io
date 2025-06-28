@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Harmony in the Wild</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+					<div style="position: fixed; top: 30px; left: 30px;">
+						<a href="index.html" style="text-decoration: none; border:none; font-size: 1.5em; color: #f7d0a4;">
+							<span class="icon solid fa-arrow-left"></span>
+						</a>
+					</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Overview</span></a></li>
+								<li><a href="#wil" id="programming-link"><span class="icon solid fa-file-alt">What I learned</span></a></li>
+								<li><a href="#media" id="art-link"><span class="icon solid fa-palette">Media</span></a></li>
+							</ul>
+						</nav>
+				</div>
+
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://github.com/tabiee" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://tabieeee.artstation.com/" class="icon brands fa-artstation"><span class="label">ArtStation</span></a></li>
+							<li><a href="https://linkedin.com/in/anna-rosputnia-b5753b218" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Overview</h2>
+									<span class="image"><img src="images/hitw/header.jpg" alt="" style="margin-top: 40px;"/> </span>
+									<br/><a href="https://store.steampowered.com/app/3360850/Harmony_in_the_Wild/" class="icon brands fa-steam" style="font-size: 1.75em; text-decoration: none; border:none;"></a>
+								</header>
+							<p style="margin-top: -50px;">An open-world adventure game that was a passion project for a group of students from the year before mine. 
+								This game started out as their university project and later continued into further development and eventually a company and dedicated production.
+							</p>
+								<p>I came into the picture after the game has already released a demo and was seeking help to continue developing it, 
+									meaning I had no part in the initial idea or structure of the project. I was unfamiliar with the team members, meeting each for the first time.
+									
+								</p>
+
+							<footer>
+								<a href="#wil" class="button scrolly">Oh my a button</a>
+							</footer>
+						</div>
+					</section>
+					<section id="wil" class="two">
+						<div class="container">
+
+							<header>
+								<h2>What I learned</h2>
+							</header>
+
+							<p>My involvement in the project included occasional visits to the office space the team occupied and providing assistance as a programmer and tester for the game.
+								I primarily took care of bugfixing, refactoring, adding small game mechanics and various testing.</p>
+
+								 <div style="text-align: left;">
+								<h3>What I learned:</h3>
+								<br/>
+								<ul>
+									<li>Working in an on-going project</li>
+									<li>Getting familiar with someone else's code</li>
+									<li>Refactoring a godclass</li>
+									<li>Using the Command pattern</li>
+									<li>Constructing test cases, like test trees and test rooms</li>
+									<li>Finding playtesters and writing a feedback form</li>
+									<li>Creating a basic save system with JSON, Playerprefs and NewtonSoft.Json</li>
+									<li>Daily Scrum</li>
+									<li>Bugtracking and reporting</li>
+									<li>Collaborating on programming and testing with other people</li>
+									<li>Using GitHub branches</li>
+									<li>Making Steam Achievements</li>
+									<li>Zenhub</li>
+									<li>Monday.com</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				<!-- Media -->
+					<section id="media" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Media</h2>
+							</header>
+
+							<div class="col-6 col-12-mobile">
+								<!--1-->
+								
+								<article class="item">
+									<header>
+										<h3>Code snippets</h3>
+									</header>
+									<br/>
+									
+									<button style="font-size: 20px; padding: 10px 250px 10px 250px;" onclick="toggleSnippet('codeSnippet1')">Before Refactoring</button>
+							
+									<div id="codeSnippet1" style="display: none;">
+										<script src="https://gist.github.com/tabiee/422ef7bb8d7a23428fd5e8579128eb32.js"></script>
+									</div>
+								</article>
+
+								<article class="item">
+									
+									<button style="font-size: 20px; padding: 10px 250px 10px 250px;" onclick="toggleSnippet('codeSnippet2')">After Refactoring</button>
+								
+									<div id="codeSnippet2" style="display: none;">
+										<script src="https://gist.github.com/tabiee/6420e8fc84f6bdc03e04c25ffe59968d.js"></script>
+									</div>
+								</article>
+								
+								<script>
+									function toggleSnippet(id) {
+									  var x = document.getElementById(id);
+									  if (x.style.display === "none") {
+										x.style.display = "block";
+									  } else {
+										x.style.display = "none";
+									  }
+									}
+								  </script>
+							</div>
+
+							<div class="col-6 col-12-mobile">
+								<!--1-->
+								<article class="item">
+									<header>
+										<h3>Gameplay</h3>
+									</header>
+									<span class="image fit"><img src="images/hitw/snowclimb.gif" alt="" /></span>
+									<br/>
+									<span class="image fit"><img src="images/hitw/wew tp.gif" alt="" /></span>
+									<br/>
+									<span class="image fit"><img src="images/hitw/hitw tree.png" alt="" /></span>
+									<br/>
+									<span class="image fit"><img src="images/hitw/bugtracker.png" alt="" /></span>
+								</article>
+							</div>
+						</div>
+					</section>
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Copyright. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>

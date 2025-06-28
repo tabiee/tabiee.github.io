@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Nature's Bounty</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+					<div style="position: fixed; top: 30px; left: 30px;">
+						<a href="index.html" style="text-decoration: none; border:none; font-size: 1.5em; color: #f7d0a4;">
+							<span class="icon solid fa-arrow-left"></span>
+						</a>
+					</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Overview</span></a></li>
+								<li><a href="#wil" id="programming-link"><span class="icon solid fa-file-alt">What I learned</span></a></li>
+								<li><a href="#media" id="art-link"><span class="icon solid fa-palette">Media</span></a></li>
+							</ul>
+						</nav>
+				</div>
+
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://github.com/tabiee" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://tabieeee.artstation.com/" class="icon brands fa-artstation"><span class="label">ArtStation</span></a></li>
+							<li><a href="https://linkedin.com/in/anna-rosputnia-b5753b218" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Overview</h2>
+									<span class="image"><img src="images/natbounty/natbounty.png" alt="" style="margin-top: 40px;"/> </span>
+									<br/><a href="https://github.com/tabiee/Natures-Bounty" class="icon brands fa-github" style="font-size: 1.75em; text-decoration: none; border:none;"></a>
+								</header>
+							<p style="margin-top: -50px;">The game is a rogue-like bullethell about plant people visiting planets infested by bug-like aliens, killing them and stealing their scrap to sell it.
+								It took inspiration from games like Binding of Isaac and Gungeon, giving the player weapons with unique bullet patterns and various abilities, such as dashing.
+								
+							</p>
+								<p>Nature's Bounty was a small project with a week dedicated to preproduction, learning Agile and Scrum, and one week dedicated on actual development.
+									The game concluded with a bossfight, despite many features not being made and the artstyle remaining inconsistent due to poor planning with the artists.
+								</p>
+
+							<footer>
+								<a href="#wil" class="button scrolly">Oh my a button</a>
+							</footer>
+						</div>
+					</section>
+					<section id="wil" class="two">
+						<div class="container">
+
+							<header>
+								<h2>What I learned</h2>
+							</header>
+
+							<p>At it's core, the bullethell mechanics were interesting and had potential to provide multiple gameplay angles that we did not have time to implement.
+								The game had a complete loop, allowing the player to finish a few levels and beat the boss.
+								I had learned a lot about modularity, design patterns and the use of ScriptableObjects and classes to store data for customization.
+							</p>
+
+								 <div style="text-align: left;">
+								<h3>What I learned:</h3>
+								<br/>
+								<ul>
+									<li>Preproduction</li>
+									<li>Planning a short game</li>
+									<li>Using the Command pattern</li>
+									<li>Bullethell mechanics</li>
+									<li>Using ScriptableObject to store bullet data for unique and customizable bullet formations</li>
+									<li>Working another programmer</li>
+									<li>Objectpools</li>
+									<li>Prioritizing tasks on a tight schedule</li>
+									<li>Explored various other patterns, such as Factory, Observer and Strategy</li>
+									<li>Style agreement matters for a coherent game</li>
+									<li>Making backlogs</li>
+									<li>Agile</li>
+									<li>Health & Damage systems</li>
+									<li>Collectibles</li>
+									<li>Modularity</li>
+									<li>Input System</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				<!-- Media -->
+					<section id="media" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Media</h2>
+							</header>
+
+							<div class="col-6 col-12-mobile">
+								<!--1-->
+								
+								<article class="item">
+									<header>
+										<h3>Code snippets</h3>
+									</header>
+									<br/>
+									
+									<button style="font-size: 20px; padding: 10px 250px 10px 250px;" onclick="toggleSnippet('codeSnippet1')">Bullet creation and pattern</button>
+							
+									<div id="codeSnippet1" style="display: none;">
+										<script src="https://gist.github.com/tabiee/4f777e224fdd4f73287d920f3d21fb9c.js"></script>
+									</div>
+								</article>
+
+								<article class="item">
+									
+									<button style="font-size: 20px; padding: 10px 250px 10px 250px;" onclick="toggleSnippet('codeSnippet2')">Bullet logic and movement</button>
+								
+									<div id="codeSnippet2" style="display: none;">
+										<script src="https://gist.github.com/tabiee/caf0a4c08f13c25e21111325e10b50db.js"></script>
+									</div>
+								</article>
+
+								<article class="item">
+									
+									<button style="font-size: 20px; padding: 10px 250px 10px 250px;" onclick="toggleSnippet('codeSnippet3')">Bullet data container</button>
+									
+									<div id="codeSnippet3" style="display: none;">
+										<script src="https://gist.github.com/tabiee/033b892dc27651c939826c1984ab7c98.js"></script>
+									</div>
+								</article>
+								
+								<script>
+									function toggleSnippet(id) {
+									  var x = document.getElementById(id);
+									  if (x.style.display === "none") {
+										x.style.display = "block";
+									  } else {
+										x.style.display = "none";
+									  }
+									}
+								  </script>
+							</div>
+
+							<div class="col-6 col-12-mobile">
+								<!--1-->
+								<article class="item">
+									<header>
+										<h3>Gameplay</h3>
+									</header>
+									<span class="image fit"><img src="images/natbounty/shoot1.gif" alt="" /></span>
+									<br/>
+									<span class="image fit"><img src="images/natbounty/shoot2.gif" alt="" /></span>
+									<br/>
+									<video width="1400px" controls><source src="images/natbounty/boss.mp4" alt=""/></video>
+								</article>
+							</div>
+						</div>
+					</section>
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Copyright. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>

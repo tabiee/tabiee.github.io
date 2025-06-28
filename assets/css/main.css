@@ -29,6 +29,20 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+	.videoContainer
+	{
+	   position:absolute;
+	   height:100%;
+	   width:100%;
+		overflow: hidden;
+	}
+	
+	.videoContainer video
+	{
+	  min-width: 100%;
+	  min-height: 100%;
+	}
+
 	.game-card {
 	  display: block;
 	  background: #222;
